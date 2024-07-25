@@ -1,0 +1,47 @@
+{
+    "ArcadeDriver": {
+        "checkpoints": [
+            {
+                "steps": 499955,
+                "file_path": "results\\TestC1\\ArcadeDriver\\ArcadeDriver-499955.onnx",
+                "reward": 0.4109155687880009,
+                "creation_time": 1710938851.5816782,
+                "auxillary_file_paths": [
+                    "results\\TestC1\\ArcadeDriver\\ArcadeDriver-499955.pt"
+                ]
+            },
+            {
+                "steps": 999897,
+                "file_path": "results\\TestC1\\ArcadeDriver\\ArcadeDriver-999897.onnx",
+                "reward": 3.5169913447820225,
+                "creation_time": 1710942890.7918167,
+                "auxillary_file_paths": [
+                    "results\\TestC1\\ArcadeDriver\\ArcadeDriver-999897.pt"
+                ]
+            },
+            {
+                "steps": 1000001,
+                "file_path": "results\\TestC1\\ArcadeDriver\\ArcadeDriver-1000001.onnx",
+                "reward": 3.578109109843219,
+                "creation_time": 1710942890.8801196,
+                "auxillary_file_paths": [
+                    "results\\TestC1\\ArcadeDriver\\ArcadeDriver-1000001.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000001,
+            "file_path": "results\\TestC1\\ArcadeDriver.onnx",
+            "reward": 3.578109109843219,
+            "creation_time": 1710942890.8801196,
+            "auxillary_file_paths": [
+                "results\\TestC1\\ArcadeDriver\\ArcadeDriver-1000001.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.10.2+cpu"
+    }
+}

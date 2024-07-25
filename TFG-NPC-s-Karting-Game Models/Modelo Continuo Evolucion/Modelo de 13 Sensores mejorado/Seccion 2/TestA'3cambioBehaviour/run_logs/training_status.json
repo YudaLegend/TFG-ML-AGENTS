@@ -1,0 +1,47 @@
+{
+    "ArcadeDriver": {
+        "checkpoints": [
+            {
+                "steps": 499965,
+                "file_path": "results\\TestA'3cambioBehaviour\\ArcadeDriver\\ArcadeDriver-499965.onnx",
+                "reward": -1.7113912602265675,
+                "creation_time": 1712432955.2630112,
+                "auxillary_file_paths": [
+                    "results\\TestA'3cambioBehaviour\\ArcadeDriver\\ArcadeDriver-499965.pt"
+                ]
+            },
+            {
+                "steps": 999955,
+                "file_path": "results\\TestA'3cambioBehaviour\\ArcadeDriver\\ArcadeDriver-999955.onnx",
+                "reward": 8.935964561183937,
+                "creation_time": 1712433978.6341088,
+                "auxillary_file_paths": [
+                    "results\\TestA'3cambioBehaviour\\ArcadeDriver\\ArcadeDriver-999955.pt"
+                ]
+            },
+            {
+                "steps": 1080895,
+                "file_path": "results\\TestA'3cambioBehaviour\\ArcadeDriver\\ArcadeDriver-1080895.onnx",
+                "reward": 1.0539710643185172,
+                "creation_time": 1712434155.860017,
+                "auxillary_file_paths": [
+                    "results\\TestA'3cambioBehaviour\\ArcadeDriver\\ArcadeDriver-1080895.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1080895,
+            "file_path": "results\\TestA'3cambioBehaviour\\ArcadeDriver.onnx",
+            "reward": 1.0539710643185172,
+            "creation_time": 1712434155.860017,
+            "auxillary_file_paths": [
+                "results\\TestA'3cambioBehaviour\\ArcadeDriver\\ArcadeDriver-1080895.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.10.2+cpu"
+    }
+}

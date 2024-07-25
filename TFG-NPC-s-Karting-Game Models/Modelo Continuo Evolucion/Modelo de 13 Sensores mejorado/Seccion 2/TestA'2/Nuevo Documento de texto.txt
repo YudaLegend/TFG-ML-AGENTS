@@ -1,0 +1,117 @@
+[INFO] Initializing from results\TestA'1\ArcadeDriver\checkpoint.pt.
+[WARNING] Failed to load for module Policy. Initializing
+[WARNING] Failed to load for module Optimizer:value_optimizer. Initializing
+[WARNING] Failed to load for module Optimizer:critic. Initializing
+[WARNING] Failed to load for module Module:Curiosity. Initializing
+[INFO] Starting training from step 0 and saving to results\TestA'2\ArcadeDriver.
+E:\Anaconda\envs\ChoseTheNameThatYouLikeTheMost\lib\site-packages\mlagents\trainers\torch\networks.py:91: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  ..\torch\csrc\utils\tensor_new.cpp:201.)
+  enc.update_normalization(torch.as_tensor(vec_input))
+[INFO] ArcadeDriver. Step: 30000. Time Elapsed: 93.437 s. Mean Reward: -3.707. Std of Reward: 3.182. Training.
+[INFO] ArcadeDriver. Step: 60000. Time Elapsed: 183.027 s. Mean Reward: -1.579. Std of Reward: 5.137. Training.
+[INFO] ArcadeDriver. Step: 90000. Time Elapsed: 276.168 s. Mean Reward: -0.689. Std of Reward: 6.718. Training.
+[INFO] ArcadeDriver. Step: 120000. Time Elapsed: 356.636 s. Mean Reward: -0.079. Std of Reward: 9.610. Training.
+[INFO] ArcadeDriver. Step: 150000. Time Elapsed: 441.848 s. Mean Reward: -0.103. Std of Reward: 9.527. Training.
+[INFO] ArcadeDriver. Step: 180000. Time Elapsed: 529.753 s. Mean Reward: 0.547. Std of Reward: 11.977. Training.
+[INFO] ArcadeDriver. Step: 210000. Time Elapsed: 622.598 s. Mean Reward: 0.259. Std of Reward: 10.394. Training.
+[INFO] ArcadeDriver. Step: 240000. Time Elapsed: 710.215 s. Mean Reward: 0.880. Std of Reward: 11.938. Training.
+[INFO] ArcadeDriver. Step: 270000. Time Elapsed: 778.831 s. Mean Reward: 3.497. Std of Reward: 17.828. Training.
+[INFO] ArcadeDriver. Step: 300000. Time Elapsed: 844.522 s. Mean Reward: 4.057. Std of Reward: 22.322. Training.
+[INFO] ArcadeDriver. Step: 330000. Time Elapsed: 911.542 s. Mean Reward: 4.863. Std of Reward: 22.509. Training.
+[INFO] ArcadeDriver. Step: 360000. Time Elapsed: 980.122 s. Mean Reward: 4.190. Std of Reward: 22.359. Training.
+[INFO] ArcadeDriver. Step: 390000. Time Elapsed: 1057.642 s. Mean Reward: 5.961. Std of Reward: 24.876. Training.
+[INFO] ArcadeDriver. Step: 420000. Time Elapsed: 1147.144 s. Mean Reward: 9.390. Std of Reward: 28.401. Training.
+[INFO] ArcadeDriver. Step: 450000. Time Elapsed: 1237.862 s. Mean Reward: 6.224. Std of Reward: 24.752. Training.
+[INFO] ArcadeDriver. Step: 480000. Time Elapsed: 1327.842 s. Mean Reward: 11.129. Std of Reward: 32.515. Training.
+[INFO] Exported results\TestA'2\ArcadeDriver\ArcadeDriver-499996.onnx
+[INFO] ArcadeDriver. Step: 510000. Time Elapsed: 1418.163 s. Mean Reward: 8.666. Std of Reward: 31.319. Training.
+[INFO] ArcadeDriver. Step: 540000. Time Elapsed: 1509.178 s. Mean Reward: 16.500. Std of Reward: 42.781. Training.
+[INFO] ArcadeDriver. Step: 570000. Time Elapsed: 1596.470 s. Mean Reward: 9.232. Std of Reward: 33.863. Training.
+[INFO] ArcadeDriver. Step: 600000. Time Elapsed: 1684.500 s. Mean Reward: 10.379. Std of Reward: 31.221. Training.
+[INFO] ArcadeDriver. Step: 630000. Time Elapsed: 1775.888 s. Mean Reward: 15.956. Std of Reward: 43.720. Training.
+[INFO] ArcadeDriver. Step: 660000. Time Elapsed: 1866.700 s. Mean Reward: 21.621. Std of Reward: 47.945. Training.
+[INFO] ArcadeDriver. Step: 690000. Time Elapsed: 1956.544 s. Mean Reward: 9.979. Std of Reward: 32.825. Training.
+[INFO] ArcadeDriver. Step: 720000. Time Elapsed: 2045.447 s. Mean Reward: 12.112. Std of Reward: 34.948. Training.
+[INFO] ArcadeDriver. Step: 750000. Time Elapsed: 2135.656 s. Mean Reward: 9.204. Std of Reward: 34.211. Training.
+[INFO] ArcadeDriver. Step: 780000. Time Elapsed: 2227.163 s. Mean Reward: 12.022. Std of Reward: 44.989. Training.
+[INFO] ArcadeDriver. Step: 810000. Time Elapsed: 2322.237 s. Mean Reward: 5.418. Std of Reward: 28.725. Training.
+[INFO] ArcadeDriver. Step: 840000. Time Elapsed: 2413.166 s. Mean Reward: 13.866. Std of Reward: 36.928. Training.
+[INFO] ArcadeDriver. Step: 870000. Time Elapsed: 2504.494 s. Mean Reward: 12.066. Std of Reward: 36.120. Training.
+[INFO] ArcadeDriver. Step: 900000. Time Elapsed: 2594.803 s. Mean Reward: 22.173. Std of Reward: 48.565. Training.
+[INFO] ArcadeDriver. Step: 930000. Time Elapsed: 2684.905 s. Mean Reward: 13.823. Std of Reward: 34.503. Training.
+[INFO] ArcadeDriver. Step: 960000. Time Elapsed: 2771.862 s. Mean Reward: 13.921. Std of Reward: 38.136. Training.
+[INFO] ArcadeDriver. Step: 990000. Time Elapsed: 2862.565 s. Mean Reward: 20.098. Std of Reward: 46.568. Training.
+[INFO] Exported results\TestA'2\ArcadeDriver\ArcadeDriver-999930.onnx
+[INFO] ArcadeDriver. Step: 1020000. Time Elapsed: 2952.871 s. Mean Reward: 33.220. Std of Reward: 61.728. Training.
+[INFO] ArcadeDriver. Step: 1050000. Time Elapsed: 3045.847 s. Mean Reward: 4.051. Std of Reward: 29.389. Training.
+[INFO] ArcadeDriver. Step: 1080000. Time Elapsed: 3136.969 s. Mean Reward: 24.339. Std of Reward: 50.868. Training.
+[INFO] ArcadeDriver. Step: 1110000. Time Elapsed: 3227.106 s. Mean Reward: 18.913. Std of Reward: 46.693. Training.
+[INFO] ArcadeDriver. Step: 1140000. Time Elapsed: 3316.280 s. Mean Reward: 11.580. Std of Reward: 40.753. Training.
+[INFO] ArcadeDriver. Step: 1170000. Time Elapsed: 3402.770 s. Mean Reward: 19.393. Std of Reward: 48.062. Training.
+[INFO] ArcadeDriver. Step: 1200000. Time Elapsed: 3493.632 s. Mean Reward: 6.079. Std of Reward: 29.169. Training.
+[INFO] ArcadeDriver. Step: 1230000. Time Elapsed: 3583.196 s. Mean Reward: 26.505. Std of Reward: 53.274. Training.
+[INFO] ArcadeDriver. Step: 1260000. Time Elapsed: 3674.668 s. Mean Reward: 30.259. Std of Reward: 56.932. Training.
+[INFO] ArcadeDriver. Step: 1290000. Time Elapsed: 3764.717 s. Mean Reward: 13.789. Std of Reward: 43.908. Training.
+[INFO] ArcadeDriver. Step: 1320000. Time Elapsed: 3858.963 s. Mean Reward: 1.819. Std of Reward: 25.653. Training.
+[INFO] ArcadeDriver. Step: 1350000. Time Elapsed: 3953.191 s. Mean Reward: 0.480. Std of Reward: 18.477. Training.
+[INFO] ArcadeDriver. Step: 1380000. Time Elapsed: 4050.886 s. Mean Reward: 1.710. Std of Reward: 25.247. Training.
+[INFO] ArcadeDriver. Step: 1410000. Time Elapsed: 4143.890 s. Mean Reward: 2.165. Std of Reward: 24.416. Training.
+[INFO] ArcadeDriver. Step: 1440000. Time Elapsed: 4233.833 s. Mean Reward: 4.780. Std of Reward: 27.651. Training.
+[INFO] ArcadeDriver. Step: 1470000. Time Elapsed: 4324.823 s. Mean Reward: 9.720. Std of Reward: 31.861. Training.
+[INFO] ArcadeDriver. Step: 1500000. Time Elapsed: 4403.271 s. Mean Reward: 18.345. Std of Reward: 42.080. Training.
+[INFO] Exported results\TestA'2\ArcadeDriver\ArcadeDriver-1499907.onnx
+[INFO] ArcadeDriver. Step: 1530000. Time Elapsed: 4476.575 s. Mean Reward: 20.641. Std of Reward: 47.183. Training.
+[INFO] ArcadeDriver. Step: 1560000. Time Elapsed: 4540.311 s. Mean Reward: 26.604. Std of Reward: 59.402. Training.
+[INFO] ArcadeDriver. Step: 1590000. Time Elapsed: 4603.716 s. Mean Reward: 37.830. Std of Reward: 66.226. Training.
+[INFO] ArcadeDriver. Step: 1620000. Time Elapsed: 4667.991 s. Mean Reward: 29.110. Std of Reward: 57.302. Training.
+[INFO] ArcadeDriver. Step: 1650000. Time Elapsed: 4735.725 s. Mean Reward: 27.278. Std of Reward: 56.828. Training.
+[INFO] ArcadeDriver. Step: 1680000. Time Elapsed: 4801.583 s. Mean Reward: 29.323. Std of Reward: 64.991. Training.
+[INFO] ArcadeDriver. Step: 1710000. Time Elapsed: 4867.085 s. Mean Reward: 31.948. Std of Reward: 67.218. Training.
+[INFO] ArcadeDriver. Step: 1740000. Time Elapsed: 4932.748 s. Mean Reward: 45.701. Std of Reward: 75.698. Training.
+[INFO] ArcadeDriver. Step: 1770000. Time Elapsed: 5000.596 s. Mean Reward: 26.631. Std of Reward: 57.192. Training.
+[INFO] ArcadeDriver. Step: 1800000. Time Elapsed: 5067.040 s. Mean Reward: 12.551. Std of Reward: 42.986. Training.
+[INFO] ArcadeDriver. Step: 1830000. Time Elapsed: 5133.681 s. Mean Reward: 10.859. Std of Reward: 35.973. Training.
+[INFO] ArcadeDriver. Step: 1860000. Time Elapsed: 5200.251 s. Mean Reward: 21.765. Std of Reward: 54.036. Training.
+[INFO] ArcadeDriver. Step: 1890000. Time Elapsed: 5267.504 s. Mean Reward: 13.723. Std of Reward: 44.382. Training.
+[INFO] ArcadeDriver. Step: 1920000. Time Elapsed: 5333.703 s. Mean Reward: 15.662. Std of Reward: 47.010. Training.
+[INFO] ArcadeDriver. Step: 1950000. Time Elapsed: 5398.786 s. Mean Reward: 13.922. Std of Reward: 46.137. Training.
+[INFO] ArcadeDriver. Step: 1980000. Time Elapsed: 5463.979 s. Mean Reward: 12.054. Std of Reward: 42.259. Training.
+[INFO] Exported results\TestA'2\ArcadeDriver\ArcadeDriver-1999894.onnx
+[INFO] ArcadeDriver. Step: 2010000. Time Elapsed: 5529.040 s. Mean Reward: 24.494. Std of Reward: 59.758. Training.
+[INFO] ArcadeDriver. Step: 2040000. Time Elapsed: 5590.648 s. Mean Reward: 18.373. Std of Reward: 47.696. Training.
+[INFO] ArcadeDriver. Step: 2070000. Time Elapsed: 5644.831 s. Mean Reward: 22.619. Std of Reward: 52.246. Training.
+[INFO] ArcadeDriver. Step: 2100000. Time Elapsed: 5699.524 s. Mean Reward: 16.069. Std of Reward: 46.305. Training.
+[INFO] ArcadeDriver. Step: 2130000. Time Elapsed: 5754.397 s. Mean Reward: 26.211. Std of Reward: 56.815. Training.
+[INFO] ArcadeDriver. Step: 2160000. Time Elapsed: 5809.551 s. Mean Reward: 13.866. Std of Reward: 42.119. Training.
+[INFO] ArcadeDriver. Step: 2190000. Time Elapsed: 5864.647 s. Mean Reward: 19.055. Std of Reward: 50.388. Training.
+[INFO] ArcadeDriver. Step: 2220000. Time Elapsed: 5918.578 s. Mean Reward: 22.262. Std of Reward: 53.759. Training.
+[INFO] ArcadeDriver. Step: 2250000. Time Elapsed: 5994.250 s. Mean Reward: 30.442. Std of Reward: 67.632. Training.
+[INFO] ArcadeDriver. Step: 2280000. Time Elapsed: 6054.288 s. Mean Reward: 29.130. Std of Reward: 63.443. Training.
+[INFO] ArcadeDriver. Step: 2310000. Time Elapsed: 6120.403 s. Mean Reward: 21.575. Std of Reward: 57.853. Training.
+[INFO] ArcadeDriver. Step: 2340000. Time Elapsed: 6175.446 s. Mean Reward: 19.306. Std of Reward: 52.948. Training.
+[INFO] ArcadeDriver. Step: 2370000. Time Elapsed: 6230.692 s. Mean Reward: 28.210. Std of Reward: 60.624. Training.
+[INFO] ArcadeDriver. Step: 2400000. Time Elapsed: 6285.781 s. Mean Reward: 22.168. Std of Reward: 58.864. Training.
+[INFO] ArcadeDriver. Step: 2430000. Time Elapsed: 6341.390 s. Mean Reward: 26.817. Std of Reward: 60.846. Training.
+[INFO] ArcadeDriver. Step: 2460000. Time Elapsed: 6397.344 s. Mean Reward: 27.582. Std of Reward: 66.553. Training.
+[INFO] ArcadeDriver. Step: 2490000. Time Elapsed: 6452.494 s. Mean Reward: 25.389. Std of Reward: 64.076. Training.
+[INFO] Exported results\TestA'2\ArcadeDriver\ArcadeDriver-2499942.onnx
+[INFO] ArcadeDriver. Step: 2520000. Time Elapsed: 6507.833 s. Mean Reward: 14.658. Std of Reward: 46.360. Training.
+[INFO] ArcadeDriver. Step: 2550000. Time Elapsed: 6562.720 s. Mean Reward: 23.141. Std of Reward: 61.996. Training.
+[INFO] ArcadeDriver. Step: 2580000. Time Elapsed: 6619.910 s. Mean Reward: 12.292. Std of Reward: 48.965. Training.
+[INFO] ArcadeDriver. Step: 2610000. Time Elapsed: 6675.206 s. Mean Reward: 15.174. Std of Reward: 46.650. Training.
+[INFO] ArcadeDriver. Step: 2640000. Time Elapsed: 6729.647 s. Mean Reward: 20.368. Std of Reward: 58.414. Training.
+[INFO] ArcadeDriver. Step: 2670000. Time Elapsed: 6785.612 s. Mean Reward: 16.675. Std of Reward: 53.324. Training.
+[INFO] ArcadeDriver. Step: 2700000. Time Elapsed: 6840.667 s. Mean Reward: 24.782. Std of Reward: 64.162. Training.
+[INFO] ArcadeDriver. Step: 2730000. Time Elapsed: 6896.426 s. Mean Reward: 15.460. Std of Reward: 50.048. Training.
+[INFO] ArcadeDriver. Step: 2760000. Time Elapsed: 6952.067 s. Mean Reward: 28.494. Std of Reward: 58.306. Training.
+[INFO] ArcadeDriver. Step: 2790000. Time Elapsed: 7006.980 s. Mean Reward: 43.002. Std of Reward: 75.460. Training.
+[INFO] ArcadeDriver. Step: 2820000. Time Elapsed: 7061.801 s. Mean Reward: 14.110. Std of Reward: 48.323. Training.
+[INFO] ArcadeDriver. Step: 2850000. Time Elapsed: 7117.516 s. Mean Reward: 25.467. Std of Reward: 62.642. Training.
+[INFO] ArcadeDriver. Step: 2880000. Time Elapsed: 7173.642 s. Mean Reward: 31.035. Std of Reward: 68.266. Training.
+[INFO] ArcadeDriver. Step: 2910000. Time Elapsed: 7229.088 s. Mean Reward: 15.357. Std of Reward: 47.356. Training.
+[INFO] ArcadeDriver. Step: 2940000. Time Elapsed: 7284.364 s. Mean Reward: 19.377. Std of Reward: 55.640. Training.
+[INFO] ArcadeDriver. Step: 2970000. Time Elapsed: 7371.808 s. Mean Reward: 40.993. Std of Reward: 76.291. Training.
+[INFO] ArcadeDriver. Step: 3000000. Time Elapsed: 7460.713 s. Mean Reward: 28.678. Std of Reward: 68.244. Training.
+[INFO] Exported results\TestA'2\ArcadeDriver\ArcadeDriver-2999931.onnx
+[INFO] Learning was interrupted. Please wait while the graph is generated.
+[INFO] Exported results\TestA'2\ArcadeDriver\ArcadeDriver-3015361.onnx
+[INFO] Copied results\TestA'2\ArcadeDriver\ArcadeDriver-3015361.onnx to results\TestA'2\ArcadeDriver.onnx.
