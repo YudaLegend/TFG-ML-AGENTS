@@ -8,12 +8,8 @@ Este proyecto utiliza **Unity ML-Agents** para entrenar agentes autónomos en un
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
 - [Uso](#uso)
-  - [Entrenamiento](#entrenamiento)
-  - [Evaluación](#evaluación)
-  - [Configuración del Juego](#configuración-del-juego)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+- [Entrenamiento](#entrenamiento)
+- [Evaluación](#evaluación)
 
 ## Características
 
@@ -37,7 +33,7 @@ Este proyecto utiliza **Unity ML-Agents** para entrenar agentes autónomos en un
 ```bash
 git clone https://github.com/tu-usuario/karting-ml-agents.git
 cd karting-ml-agents
-```bash
+```
 
 ### Paso 2: Configurar el Entorno Python
 Es recomendable utilizar un entorno virtual para gestionar las dependencias de Python:
@@ -46,3 +42,30 @@ Es recomendable utilizar un entorno virtual para gestionar las dependencias de P
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
+
+
+### Paso 3: Configurar Unity
+1.Abre Unity Hub y añade el proyecto que clonaste (karting-ml-agents).
+2.Importa el paquete ML-Agents desde el gestor de paquetes de Unity.
+3.Asegúrate de configurar correctamente los Brains y Academy.
+
+
+### Uso
+Entrenamiento
+Para entrenar a los bots de karting:
+
+Configura los parámetros de entrenamiento en el archivo trainer_config.yaml.
+Corre el entrenamiento desde la terminal de Python:
+```bash
+mlagents-learn config/trainer_config.yaml --run-id=karting_run
+```
+El entrenamiento puede llevar tiempo. Observa el progreso desde la ventana del TensorBoard:
+```bash
+tensorboard --logdir="results"
+```
+### Evaluación
+Una vez que el modelo está entrenado, puedes cargar el modelo entrenado en Unity:
+
+Dirígete al agente de kart y asigna el modelo entrenado en su Behavior Parameters.
+Ejecuta el juego desde Unity y observa cómo los bots navegan por la pista.
