@@ -48,7 +48,9 @@ source venv/bin/activate  # En Windows: venv\Scripts\activate
 
 ### Paso 3: Configurar Unity
 1.Abre Unity Hub y añade el proyecto que clonaste (karting-ml-agents).
+
 2.Importa el paquete ML-Agents desde el gestor de paquetes de Unity.
+
 3.Asegúrate de configurar correctamente los Brains.
 
 ### Uso
