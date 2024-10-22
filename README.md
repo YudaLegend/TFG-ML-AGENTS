@@ -32,7 +32,6 @@ Este proyecto utiliza **Unity ML-Agents** para entrenar agentes autónomos en un
 
 ```bash
 git clone https://github.com/YudaLegend/TFG-ML-AGENTS.git
-cd TFG-ML-AGENTS
 ```
 
 ### Paso 2: Configurar el Entorno Python
@@ -41,19 +40,21 @@ Es recomendable utilizar un entorno virtual para gestionar las dependencias de P
 ```bash
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
-	- pip install mlagents
-	- pip install mlagents_envs
-	- pip install gym_unity
-	- pip install torch
+- pip install mlagents
+- pip install mlagents_envs
+- pip install gym_unity
+- pip install torch
 ```
 
 ### Paso 3: Configurar Unity
 1.Abre Unity Hub y añade el proyecto que clonaste (karting-ml-agents).
 2.Importa el paquete ML-Agents desde el gestor de paquetes de Unity.
-3.Asegúrate de configurar correctamente los Brains y Academy.
-
+3.Asegúrate de configurar correctamente los Brains.
 
 ### Uso
+Aqui tienes un link de un ejemplo de como configurar los parametros de behaviour en Unity.
+https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Getting-Started.md
+
 Entrenamiento
 Para entrenar a los bots de karting:
 
