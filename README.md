@@ -55,17 +55,20 @@ source venv/bin/activate  # En Windows: venv\Scripts\activate
 
 ### Uso
 Aqui tienes un link de un ejemplo de como configurar los parametros de behaviour en Unity.
+
 https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Getting-Started.md
 
-Entrenamiento
+### Entrenamiento
 Para entrenar a los bots de karting:
 
 Configura los parámetros de entrenamiento en el archivo trainer_config.yaml.
+
 Corre el entrenamiento desde la terminal de Python:
 ```bash
 mlagents-learn config/trainer_config.yaml --run-id=karting_run
 ```
 El entrenamiento puede llevar tiempo. Observa el progreso desde la ventana del TensorBoard:
+
 ```bash
 tensorboard --logdir="results"
 ```
