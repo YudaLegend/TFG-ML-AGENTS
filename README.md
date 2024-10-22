@@ -37,7 +37,7 @@ Este proyecto utiliza **Unity ML-Agents** para entrenar agentes autónomos en un
 ```bash
 git clone https://github.com/tu-usuario/karting-ml-agents.git
 cd karting-ml-agents
-
+```bash
 
 ### Paso 2: Configurar el Entorno Python
 Es recomendable utilizar un entorno virtual para gestionar las dependencias de Python:
