@@ -79,12 +79,4 @@ Dirígete al agente de kart y asigna el modelo entrenado en su Behavior Paramete
 Ejecuta el juego desde Unity y observa cómo los bots navegan por la pista.
 
 
-un video de ejemplo para observar el comporatamiento de un modelo en un circuito.
-
-[video](TFG-NPC-s-Karting-Game Models/Modelo Continuo Evolucion/Modelo de 13 Sensores mejorado/Videos de todos los entrenamientos/S2-13M-A'4.mp4)
-
-
-
-
-
 
