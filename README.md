@@ -80,4 +80,11 @@ Ejecuta el juego desde Unity y observa cómo los bots navegan por la pista.
 
 
 un video de ejemplo para observar el comporatamiento de un modelo en un circuito.
+
 [Ver el video de la simulación](TFG-ML-AGENTS/TFG-NPC-s-Karting-Game Models/Modelo Continuo Evolucion/Modelo de 13 Sensores mejorado)
+
+
+
+
+
+
